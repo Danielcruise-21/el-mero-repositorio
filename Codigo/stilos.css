@@ -1,0 +1,26 @@
+body{
+	background: rgb(224, 235, 235);
+}
+
+.texto{
+
+	margin:900px 370px;
+	text-align: center;
+	padding:10px 15px;
+	background: rgb(31, 122, 122);
+
+	-webkit -moz border-radius: 77px;
+	border-radius: 77px;
+
+
+}
+.texto:hover{
+	background: rgb(112, 219, 219);
+	-webkit transition: width 1s linear 1s;
+
+
+}
+.texto{
+	transition: background 1s, color 1s,
+	font-weight 2s ease-out 2s;
+}
